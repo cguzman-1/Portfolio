@@ -15,6 +15,6 @@ I wanted to get hands-on experience while building this webpage from scratch so 
 - JavaScript interactivity
 - Project images
 - Responsive design for mobile devices
-- Flexbox and Grid implementation
+- Flexbox and Grid layout
 ## Author
 cguzman-1
