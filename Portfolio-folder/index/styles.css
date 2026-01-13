@@ -107,3 +107,9 @@ body {
     background-color: grey;
     text-align: center;
 }
+
+.contact-ul {
+    display: inline-block;
+    max-width: 100px;
+    max-height: 100px;
+}
