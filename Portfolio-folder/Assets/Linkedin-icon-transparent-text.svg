@@ -1,0 +1,49 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 100 100"
+  width="48"
+  height="48"
+  aria-label="LinkedIn"
+  role="img"
+>
+  <defs>
+    <mask id="cutout">
+      <!-- White = visible -->
+      <rect width="100" height="100" fill="white"/>
+
+      <!-- Black = transparent (cut out) -->
+      <circle cx="30" cy="30" r="6" fill="black"/>
+      <rect x="25" y="42" width="10" height="36" rx="3" fill="black"/>
+
+      <path
+        d="
+          M48 42
+          h10
+          v6
+          c2 -4 6 -7 12 -7
+          10 0 18 6 18 20
+          v17
+          h-10
+          v-16
+          c0 -7 -3 -11 -9 -11
+          -6 0 -11 4 -11 11
+          v16
+          h-10
+          z
+        "
+        fill="black"
+      />
+    </mask>
+  </defs>
+
+  <!-- Black background with transparent text -->
+  <rect
+    x="0"
+    y="0"
+    width="100"
+    height="100"
+    rx="20"
+    fill="#000000"
+    mask="url(#cutout)"
+  />
+</svg>
