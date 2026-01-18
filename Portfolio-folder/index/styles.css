@@ -8,7 +8,7 @@
  .header {
     text-align: center;
     /* text-decoration-line: underline; */
-    font-size: larger;
+    font-size: x-large;
     margin: 0px;
  }
 
@@ -18,6 +18,7 @@
 
  .header-paragraph {
     margin-bottom: 3rem;
+    font-size: medium;
  }
 
  .header-nav {
@@ -29,6 +30,7 @@
 .header-ulist > li {
     display: inline-block;
     list-style: none;
+    font-size: larger;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -36,7 +38,9 @@
 
 .header-ulist img {
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: top;
+    width: 25x;
+    height: 25px;
 }
 
 #main-content {
@@ -61,7 +65,7 @@
 #hero {
     text-align: center;
     /*text-decoration-line: underline;*/
-    font-size: large;
+    font-size: larger;
 }
 
 #about > h2 {
@@ -96,12 +100,16 @@ body {
     text-align: center;
     border-radius: 10px;
     display: inline-block;
-    margin: 10px;
+    margin: 3px;
+    margin-right: 1px;
+    margin-left: 1px;
 }
 
 .project-wrapper {
     display: inline-block;
-    margin: 10px;
+    margin: 3px;
+    margin-right: 1px;
+    margin-left: 1px;
     vertical-align: top;
 }
 
@@ -132,25 +140,26 @@ body {
 
 #contact {
     text-align: center;
-    margin-top: 0px;
+    margin-top: 3rem;
     margin-bottom: 0px;
 }
 
 .contact-ul {
     margin: 0;
+    margin-top: 2rem;
     padding: 0;
 }
 
 .contact-ul img {
-    max-width: 50px;
-    max-height: 50px;
-    width: 45px;
-    height: 45px;
+    max-width: 80px;
+    max-height: 80px;
+    width: 70px;
+    height: 70px;
     margin-top: 0;
-    margin-right: 5px;
-    margin-left: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .contact-ul > li {
@@ -162,17 +171,17 @@ body {
     display: block;
     text-align: center;
     margin-top: 0;
-    margin-right: 5px;
-    margin-left: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .contact-label {
     margin: 0;
     padding: 0;
     font-weight: bold;
-    font-size: small;
+    font-size: smaller;
     font-style: normal;
     text-align: center;
 }
