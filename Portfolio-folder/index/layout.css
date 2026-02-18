@@ -38,6 +38,49 @@
     margin: auto;
     padding: 1rem;
 }
+
+.about-container {
+    display: flex;
+}
+
+.about-wrapper {
+    display: flex;
+    height: 20rem;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.about-wrapper h3,
+.about-wrapper p {
+  margin: 0;
+}
+
+.about-wrapper h3 {
+    margin-top: auto;
+}
+
+.about-wrapper p {
+    margin-top: 0;
+}
+
+.about-intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about-me {
+    vertical-align: middle;
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.about-content {
+    padding: 2rem;
+}
 /*
 .project-1 {
     background-color: darkgrey;
