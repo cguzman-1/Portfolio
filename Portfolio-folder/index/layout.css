@@ -21,9 +21,14 @@
 
 .header-heading {
     margin-top: 3rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid black;
+    max-width: 75rem;
+    margin-inline: auto;
+    text-align: center;
  }
 
- .header-paragraph {
+  .header-paragraph {
     margin-bottom: 3rem;
  }
 
@@ -135,6 +140,21 @@
     gap: 1rem;
 }
 
+.projects-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.projects-title::before,
+.projects-title::after {
+    content: "";
+    height: 1px;
+    background-color: black;
+    flex: 1;
+}
+
 .button-container {
     margin-top: auto;
     display: flex;
@@ -145,6 +165,21 @@
     margin: 15px;
     padding: 15px;
     height: 25%;
+}
+
+.skills-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.skills-title::before,
+.skills-title::after {
+    content: "";
+    height: 1px;
+    background-color: black;
+    flex: 1;
 }
 
 #skills > h2 {
@@ -175,6 +210,21 @@
     font-weight: bold;
     align-items: center;
     justify-content: center;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.contact-title::before,
+.contact-title::after {
+    content: "";
+    height: 1px;
+    background-color: black;
+    flex: 1;
 }
 
 #contact {
