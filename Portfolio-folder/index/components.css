@@ -4,8 +4,9 @@
     color: black;
 }
 
-.header-nav a:hover {
-    background-color: darkgray;
+.header-nav a:hover,
+a:focus {
+    /*background-color: darkgray;*/
     text-decoration: underline;
 }
 

@@ -1,22 +1,30 @@
+.header-nav {
+    display: flex;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+ }
+
+.header-ulist {
+    display: flex;
+    gap: 1rem;
+}
+
 .header-ulist > li {
-    display: inline-block;
+    display: flex;
     list-style: none;
     font-size: larger;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
 .header-ulist img {
-    display: inline-block;
-    vertical-align: top;
-    width: 25px;
-    height: 25px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .header-nav a {
-    display: block;
-    padding: 12px 18px;
+    display: flex;
+    gap: .5rem;
 }
 
 .header-heading {
@@ -30,12 +38,6 @@
 
   .header-paragraph {
     margin-bottom: 3rem;
- }
-
-.header-nav {
-    background-color: gray;
-    margin: 0;
-    padding: 0;
  }
 
 #main-content {
@@ -53,6 +55,7 @@
     height: 20rem;
     flex-direction: column;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 .about-wrapper h3,
@@ -164,7 +167,8 @@
 .read-more {
     margin: 15px;
     padding: 15px;
-    height: 25%;
+    height: 1rem;
+    width: 8rem;
 }
 
 .skills-title {
