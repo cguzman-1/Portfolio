@@ -11,8 +11,10 @@ a:focus {
 }
 
 .read-more {
-    background-color: black;
-    color: white;
+    background-color: #FBFFF0;
+    color: black;
+    font-weight: bold;
+    font-size: large;
     border-radius: 5px;
     text-decoration: none;
 }
