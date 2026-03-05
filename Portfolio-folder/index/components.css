@@ -10,7 +10,7 @@ a:focus {
     text-decoration: underline;
 }
 
-.read-more {
+.view-code-btn, .demo-btn {
     background-color: #FBFFF0;
     color: black;
     font-weight: bold;
@@ -19,7 +19,7 @@ a:focus {
     text-decoration: none;
 }
 
-.read-more:hover {
+.view-code-btn:hover, .demo-btn:hover {
     background-color: grey;
 }
 

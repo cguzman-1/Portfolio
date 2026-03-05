@@ -188,9 +188,9 @@
     color: white;
 }
 
-.read-more {
+.view-code-btn, .demo-btn {
     display: flex;
-    margin: 15px;
+    margin: .4rem;
     padding-top: 0;
     padding-bottom: 0;
     height: 2.8rem;
