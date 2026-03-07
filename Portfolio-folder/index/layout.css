@@ -3,6 +3,9 @@
     background-color: #253B59;
     margin: 0;
     padding: 0;
+
+    background-image: url("../Images/Textures/black-felt.png");
+    background-repeat: repeat;
  }
 
 .header-ulist {
