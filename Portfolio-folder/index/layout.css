@@ -7,6 +7,8 @@
     background-color: #253B59;
     margin: 0;
     padding: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,.20);
+
 
     background-image: url("../Images/Textures/black-felt.png");
     background-repeat: repeat;
