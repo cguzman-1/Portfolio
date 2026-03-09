@@ -1,5 +1,9 @@
 .header-nav {
     display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
     background-color: #253B59;
     margin: 0;
     padding: 0;
